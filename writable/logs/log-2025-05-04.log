@@ -1,0 +1,230 @@
+CRITICAL - 2025-05-04 17:44:54 --> Error: Call to undefined function App\Controllers\getPanelSettings()
+[Method: GET, Route: admin/categories]
+in APPPATH\Controllers\CategoryController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\CategoryController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-05-04 11:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-04 17:46:44 --> Error: Call to undefined function App\Controllers\getPanelSettings()
+[Method: GET, Route: admin/categories]
+in APPPATH\Controllers\CategoryController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\CategoryController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-04 17:46:44 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\modesy-2.5\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\modesy-2.5\system\Helpers\number_helper.php(58): format_number(12.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\modesy-2.5\system\Debug\BaseExceptionHandler.php(154): number_to_size(12.0, 2)
+#2 C:\xampp\htdocs\modesy-2.5\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(12582912)
+#3 C:\xampp\htdocs\modesy-2.5\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\modesy-2.5\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\modesy-2.5\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\modesy-2.5\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Controllers\getPanelSettings()
+#0 C:\xampp\htdocs\modesy-2.5\system\CodeIgniter.php(904): App\Controllers\CategoryController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\modesy-2.5\system\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\modesy-2.5\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\modesy-2.5\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\modesy-2.5\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#5 C:\xampp\htdocs\modesy-2.5\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#6 {main}
+[Method: GET, Route: admin/categories]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-04 11:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 11:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 17:46:54 --> CSRF token verified.
+INFO - 2025-05-04 11:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 11:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 17:46:56 --> CSRF token verified.
+INFO - 2025-05-04 11:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 11:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 17:46:58 --> CSRF token verified.
+INFO - 2025-05-04 11:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 11:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 17:47:00 --> CSRF token verified.
+INFO - 2025-05-04 11:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 11:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 17:47:03 --> CSRF token verified.
+INFO - 2025-05-04 11:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 11:47:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 17:47:05 --> CSRF token verified.
+INFO - 2025-05-04 11:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 11:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 17:47:10 --> CSRF token verified.
+INFO - 2025-05-04 11:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 11:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 17:47:13 --> CSRF token verified.
+INFO - 2025-05-04 11:47:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 11:47:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 17:47:16 --> CSRF token verified.
+INFO - 2025-05-04 11:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 11:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 17:47:19 --> CSRF token verified.
+INFO - 2025-05-04 11:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 11:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 17:47:20 --> CSRF token verified.
+INFO - 2025-05-04 11:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 11:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 17:48:33 --> CSRF token verified.
+INFO - 2025-05-04 11:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 11:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 17:48:35 --> CSRF token verified.
+INFO - 2025-05-04 11:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 11:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 17:48:36 --> CSRF token verified.
+INFO - 2025-05-04 11:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 11:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 17:48:41 --> CSRF token verified.
+INFO - 2025-05-04 11:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 11:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 17:48:43 --> CSRF token verified.
+INFO - 2025-05-04 11:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-04 17:50:25 --> Error: Call to undefined function App\Controllers\getPanelSettings()
+[Method: GET, Route: admin/categories]
+in APPPATH\Controllers\CategoryController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\CategoryController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-04 17:50:25 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\modesy-2.5\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\modesy-2.5\system\Helpers\number_helper.php(58): format_number(12.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\modesy-2.5\system\Debug\BaseExceptionHandler.php(154): number_to_size(12.0, 2)
+#2 C:\xampp\htdocs\modesy-2.5\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(12582912)
+#3 C:\xampp\htdocs\modesy-2.5\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\modesy-2.5\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\modesy-2.5\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\modesy-2.5\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Controllers\getPanelSettings()
+#0 C:\xampp\htdocs\modesy-2.5\system\CodeIgniter.php(904): App\Controllers\CategoryController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\modesy-2.5\system\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\modesy-2.5\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\modesy-2.5\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\modesy-2.5\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#5 C:\xampp\htdocs\modesy-2.5\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#6 {main}
+[Method: GET, Route: admin/categories]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-04 11:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-04 17:51:40 --> Error: Call to undefined function App\Controllers\getPanelSettings()
+[Method: GET, Route: admin/categories]
+in APPPATH\Controllers\CategoryController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\CategoryController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-04 17:51:40 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\modesy-2.5\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\modesy-2.5\system\Helpers\number_helper.php(58): format_number(14.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\modesy-2.5\system\Debug\BaseExceptionHandler.php(154): number_to_size(14.0, 2)
+#2 C:\xampp\htdocs\modesy-2.5\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(14680064)
+#3 C:\xampp\htdocs\modesy-2.5\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\modesy-2.5\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\modesy-2.5\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\modesy-2.5\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Controllers\getPanelSettings()
+#0 C:\xampp\htdocs\modesy-2.5\system\CodeIgniter.php(904): App\Controllers\CategoryController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\modesy-2.5\system\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\modesy-2.5\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\modesy-2.5\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\modesy-2.5\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#5 C:\xampp\htdocs\modesy-2.5\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#6 {main}
+[Method: GET, Route: admin/categories]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-04 11:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 11:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 17:53:24 --> CSRF token verified.
+INFO - 2025-05-04 11:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 11:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 17:53:29 --> CSRF token verified.
+INFO - 2025-05-04 11:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 17:54:22 --> CSRF token verified.
+INFO - 2025-05-04 11:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 11:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 17:54:22 --> CSRF token verified.
+INFO - 2025-05-04 11:54:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 11:54:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 17:54:27 --> CSRF token verified.
+INFO - 2025-05-04 11:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 11:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 17:54:34 --> CSRF token verified.
+INFO - 2025-05-04 11:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 17:54:36 --> CSRF token verified.
+INFO - 2025-05-04 11:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 17:55:06 --> CSRF token verified.
+INFO - 2025-05-04 11:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 17:55:12 --> CSRF token verified.
+INFO - 2025-05-04 11:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 17:55:13 --> CSRF token verified.
+INFO - 2025-05-04 11:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 17:55:25 --> CSRF token verified.
+INFO - 2025-05-04 11:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 11:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 17:55:26 --> CSRF token verified.
+INFO - 2025-05-04 11:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 17:56:50 --> CSRF token verified.
+INFO - 2025-05-04 11:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 17:56:59 --> CSRF token verified.
+INFO - 2025-05-04 11:57:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 17:57:06 --> CSRF token verified.
+INFO - 2025-05-04 11:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 17:57:10 --> CSRF token verified.
+INFO - 2025-05-04 11:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 17:58:54 --> CSRF token verified.
+INFO - 2025-05-04 12:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 18:00:08 --> CSRF token verified.
+INFO - 2025-05-04 12:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 18:00:09 --> CSRF token verified.
+INFO - 2025-05-04 12:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 12:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 18:00:31 --> CSRF token verified.
+INFO - 2025-05-04 12:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 12:00:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 18:00:37 --> CSRF token verified.
+INFO - 2025-05-04 12:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 12:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 18:00:44 --> CSRF token verified.
+INFO - 2025-05-04 12:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 12:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 18:00:47 --> CSRF token verified.
+INFO - 2025-05-04 12:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 12:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 18:00:50 --> CSRF token verified.
+INFO - 2025-05-04 12:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 12:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 18:00:51 --> CSRF token verified.
+INFO - 2025-05-04 12:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 12:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 18:01:07 --> CSRF token verified.
+INFO - 2025-05-04 12:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 12:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-04 18:01:08 --> CSRF token verified.
